@@ -1,0 +1,37 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.key {
+  padding: 2px;
+  margin: 2px;
+  width: 50px;
+  height: 50px;
+  border: solid 2px #000;
+  background-color: rgb(229, 212, 190);
+}
+
+.halftone {
+  margin-bottom: 110px;
+}
+
+.active {
+  border-color: yellow;
+  background-color: rgb(248, 255, 148);
+
+}
